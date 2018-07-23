@@ -5,30 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>EDX_1</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script src="main.js"></script>
 </head>
 <body>
-    |<a href="#Inspire"><b>Inspire</b></a> ||
-    <a href="#Focus"><b>Focus</b></a> ||
-    <a href="#Detail"><b>Detail</b></a> |
-    <br><br>
-    <input type="text" placeholder="Username">
-    <input type="password" placeholder="Password">
-    <br>
-    <p>
-        What is the highest level of education you have attained?
-    </p>
-    <select>
-        <option value="ELEM">Elementary School</option>
-        <option value="MID">Middle School</option>
-        <option value="HIGH" selected>High School</option>
-        <option value="UNI">University/College</option>
-        <option value="GED">GED</option>
-        <option value="GRAD">Postgraduate (Master's or PhD)</option>
-        <option value="OTHER">Other</option>
-    </select>
-    <input type="submit"
+    <div id="headerbar">
+        |<a href="#Inspire"><b>Inspire</b></a> ||
+        <a href="#Focus"><b>Focus</b></a> ||
+        <a href="#Detail"><b>Detail</b></a> |
+        <br><br>
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <br>
+        <p>
+            What is the highest level of education you have attained?
+        </p>
+        <select>
+            <option value="ELEM">Elementary School</option>
+            <option value="MID">Middle School</option>
+            <option value="HIGH" selected>High School</option>
+            <option value="UNI">University/College</option>
+            <option value="GED">GED</option>
+            <option value="GRAD">Postgraduate (Master's or PhD)</option>
+            <option value="OTHER">Other</option>
+        </select>
+        <input type="submit">
+    </div>
+    <hr>
     <header>
         <h1>About Klein</h1>
     </header>
@@ -47,20 +50,23 @@
                 <br>
                 <br>
                 Even Everest is up there, but hey, we believe in you.
-                <br>
-                <figure>
-                    <img 
-                    src="https://myimaginationcastle.files.wordpress.com/2013/11/young-ed.jpg" 
-                    alt="Edmund Hillary"
-                    height="15%"
-                    width="15%">
-                    <figcaption>Edmund Hillary : First man to scale Mount Everest</figcaption>
-                </figure>
-                <br><br>
-                <a href= "https://www.biography.com/people/edmund-hillary-9339111">
-                    First to reach the summit of Mt.Everest : Edmund Hillary
-                </a> 
             </p>
+                <br>
+                <div class="center">
+                    <figure>
+                        <img 
+                        src="https://myimaginationcastle.files.wordpress.com/2013/11/young-ed.jpg" 
+                        alt="Edmund Hillary"
+                        height="15%"
+                        width="15%">
+                        <figcaption>Edmund Hillary : First man to scale Mount Everest</figcaption>
+                    </figure>
+                    <br><br>
+                    <a href= "https://www.biography.com/people/edmund-hillary-9339111">
+                        First to reach the summit of Mt.Everest : Edmund Hillary
+                    </a> 
+                </div>
+            
         </section>
         <hr>
         <section>
@@ -85,7 +91,7 @@
             </p>
         </section>
         <hr>
-        <div style="color:darkblue; font-family:Verdana, Geneva, Tahoma, sans-serif;" id="Detail">
+        <div style="color:darkblue; font-family:Verdana, Geneva, Tahoma, sans-serif;" id="Detail" class="center">
             <img src="protodiagram.png" alt="diagram_1">
             <header>
                 <h5>Superpowers</h5>
